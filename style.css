@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    height:60px;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+   height: 50px;
+   width: 100px;
+}
+
+.logo{
+     background-image: url('https://www.shutterstock.com/shutterstock/photos/2270561027/display_1500/stock-vector-amazon-logo-icon-logo-sign-art-design-symbol-famous-industry-jeff-bezos-corporate-text-isolated-2270561027.jpg');
+     background-size: cover;
+     height: 50px;
+     width: 100px;
+}
+
+.border{
+   border: 2px solid transparent;
+   padding: 6px;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.add-first{
+    color:#cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+   
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 6px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 620px;
+    height: 43px;
+    border-radius: 5px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: whitesmoke;
+    width: 5px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:black
+}
+
+.span{
+    font-size:12px;
+}
+
+.nav-sec{
+    font-size: 0.89rem;
+    font-weight: 500;
+}
+
+.nav-cart i{
+    font-size: 35px;
+}
+
+.nav-cart{
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+
+.panel{
+    height: 40px;
+    background-color: #37375a;
+    color:wheat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.panel-options{
+    width: 90%;
+    font-weight: 500;
+}
+
+.hero_section{
+    background-image: url('https://m.media-amazon.com/images/I/61P7hqIHrdL._SX3000_.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero_msg{
+    background-color: white;
+    color: #000;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.hero_msg a{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero_msg a:hover{
+    border-bottom: 0.5px solid black;
+    width:70px;
+}
+
+.shop_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.shop_section p:hover{
+    border-bottom: 0.5px solid black;
+    width:70px;
+}
+
+.box{
+    border: 2px solid transparent;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box1_img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content p{
+    color:blue;
+}
+
+.long-box{
+    height: 300px;
+    width: 97%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.long-content{
+    padding: 20px;
+}
+
+.box_img{
+    height: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    width: 12.12%;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.panel-1{
+    background-color: #37375a;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 0.90rem;
+}
+
+.panel-1 a:hover{
+    border-bottom: 0.5px solid white;
+    color: white;
+}
+
+.panel-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.panle-2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.90rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+.panel-3{
+    background-color: #131A22;
+    color: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    font-size: 0.90rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panle-2 a:hover{
+    border-bottom: 0.5px solid white;
+}
+
+.pages{
+    padding: 25px;
+}
+
+.pages a:hover{
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.copyright{
+    padding: 5px;
+    text-align: center;
+}
+
+.copyright a:hover{
+    border-bottom: 1px solid white;
+}
